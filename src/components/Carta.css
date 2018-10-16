@@ -1,0 +1,39 @@
+.carta {
+	width: 130px;
+	height: 200px;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	border-radius: 5%;
+	padding: 5px;
+	position: relative;
+}
+.carta:before {
+	border: 1px solid #000000;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	right: 12px;
+	bottom: 12px;
+}
+.numero_arriba {
+	position: relative;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.numero_abajo {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	rotation: 180deg;
+}
+
+.palo {
+	text-align: center;
+	position: relative;
+	top: 25%;
+	margin: 0 auto;
+}
